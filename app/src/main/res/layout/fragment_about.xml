@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AboutFragment">
+
+<LinearLayout
+    android:padding="5dp"
+    android:id="@+id/about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"              android:textAlignment="center"
+        android:text="About Us ">
+    </TextView>
+</LinearLayout>
+
+  <ScrollView
+      android:layout_marginTop="80dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <LinearLayout
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+          <TextView
+              android:padding="15dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:textSize="18sp"
+              android:text="@string/samachar_application_brings_you_the_latest_headlines_from_around_the_world_delivered_fast_accurately_and_without_the_noise_whether_you_re_into_politics_tech_entertainment_sports_or_global_affairs_newspulse_curates_real_time_news_from_trusted_sources_so_you_stay_informed_and_ahead_of_the_curve">
+          </TextView>
+          <TextView
+              android:padding="15dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:textSize="18sp"
+              android:text="@string/what_we_offer_breaking_news_alerts_curated_stories_tailored_to_your_interests_offline_reading_for_news_on_the_go_multi_language_support_dark_mode_for_night_readers">
+          </TextView>
+
+          <TextView
+              android:padding="15dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:textSize="18sp"
+              android:text="@string/our_promise_we_value_journalistic_integrity_and_we_re_committed_to_providing_news_that_is_factual_balanced_and_free_from_bias_or_clickbait">
+          </TextView>
+
+          <TextView
+              android:padding="15dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:textSize="18sp"
+              android:text="@string/contact_us_got_feedback_questions_or_suggestions_we_d_love_to_hear_from_you_whether_you_re_reporting_a_bug_requesting_a_new_feature_or_just_want_to_share_your_thoughts_your_input_helps_us_improve_and_grow_we_value_every_message_and_do_our_best_to_respond_as_quickly_as_possible">
+          </TextView>
+          <TextView
+              android:padding="15dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:textSize="18sp"
+              android:text="@string/address_newspulse_media_pvt_ltd_123_innovation_street_sector_21_tech_city_new_delhi_110001_india_support_hours_monday_to_friday_9_00_am_6_00_pm_ist">
+          </TextView>
+          <TextView
+              android:padding="15dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:textSize="15sp"
+              android:text="@string/_2025_newspulse_all_rights_reserved_unauthorized_reproduction_or_distribution_of_any_content_is_strictly_prohibited">
+          </TextView>
+      </LinearLayout>
+  </ScrollView>
+
+</FrameLayout>
